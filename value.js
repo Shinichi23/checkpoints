@@ -9,13 +9,12 @@ let vowels = ['a', 'e', 'o', 'u', 'i']
         if(vowels.indexOf(sentence) !== -1){
             nVowels++
         } 
-        if(sentence == ' '){
+        if(sentence === ' ' || sentence == '.'){
             nSpace++ 
         }
     } while (sentence!==".")
 
     
-
 console.log("Number of characters : ", nChar)
 console.log("Number of words : ", nSpace)
 console.log("Number of vowels : ", nVowels)
