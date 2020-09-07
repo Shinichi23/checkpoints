@@ -11,3 +11,4 @@ function duplicate(arr) {
 }
 
 console.log(duplicate(newArr))
+console.log()
