@@ -10,7 +10,7 @@ let pets = [
   
   console.log(pets)
   
-  let dogs = pets.filter( pet => pet.type == "dog");
+  let dogs = pets.filter( pet => pet.type === "dog");
   
   console.log(dogs)
   
